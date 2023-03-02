@@ -1,0 +1,53 @@
+:root {
+  --iris-brand-color: #4d5ae5;
+  --ocean-pressed-color: #404bbf;
+  --navyblue-dark-color: #2e2f42;
+  --green-success-color: #31d0aa;
+  --slate-text-color: #434455;
+  --lightslate-subtle-color: #8e8f99;
+  --cornflower-accent-color: #e7e9fc;
+  --cloud-light-color: #f4f4fd;
+  --navyblue-modal-color: #2e2f42;
+  --grey-hero-color: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.hidden-title {
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* --- HEADER --- */
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navyblue-dark-color);
+}
+
+.logo-element {
+  color: var(--iris-brand-color);
+}
+
+/* .nav-list {
+}
+.list-item {
+}
+.address-list {
+}
+.address-link {
+} */
