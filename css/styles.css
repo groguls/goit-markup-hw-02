@@ -7,13 +7,15 @@
   --lightslate-subtle-color: #8e8f99;
   --cornflower-accent-color: #e7e9fc;
   --cloud-light-color: #f4f4fd;
-  --navyblue-modal-color: #2e2f42;
-  --grey-hero-color: #2e2f42;
+  --navyblue-modal-color: rgba(46, 47, 66, 0.4);
+  --grey-hero-color: rgba(46, 47, 66, 0.7);
 }
 
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
+  color: var(--slate-text-color);
+  background-color: #fff;
 }
 
 .hidden-title {
@@ -43,11 +45,40 @@ body {
   color: var(--iris-brand-color);
 }
 
-/* .nav-list {
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
-.list-item {
+
+.nav-list .link {
+  color: var(--navyblue-dark-color);
 }
-.address-list {
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--ocean-pressed-color);
 }
-.address-link {
+
+.nav-list .link.active {
+  color: var(--ocean-pressed-color);
+}
+
+/* .address-list {
+  
 } */
+
+.address-link {
+  font-style: normal;
+  /* font-weight: 400;
+  font-size: 16px; */
+  line-height: 1.5;
+  color: var(--slate-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean-pressed-color);
+}
+
+/* Hero section  */
