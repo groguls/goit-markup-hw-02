@@ -9,13 +9,21 @@
   --cloud-light-color: #f4f4fd;
   --navyblue-modal-color: rgba(46, 47, 66, 0.4);
   --grey-hero-color: rgba(46, 47, 66, 0.7);
+  --main-color: #fff;
+  --font-weight-caption: 700;
+  --font-size-caption: 36px;
+  --font-weight-title: 500;
+  --font-size-title: 20px;
 }
+
+/* --- Common styles --- */
 
 body {
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-text-color);
-  background-color: #fff;
+  background-color: var(--main-color);
 }
 
 .hidden-title {
@@ -30,7 +38,7 @@ body {
   list-style: none;
 }
 
-/* --- HEADER --- */
+/* --- Header --- */
 
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -46,9 +54,7 @@ body {
 }
 
 .nav-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: var(--font-weight-title);
 }
 
 .nav-list .link {
@@ -64,15 +70,8 @@ body {
   color: var(--ocean-pressed-color);
 }
 
-/* .address-list {
-  
-} */
-
 .address-link {
   font-style: normal;
-  /* font-weight: 400;
-  font-size: 16px; */
-  line-height: 1.5;
   color: var(--slate-text-color);
 }
 
@@ -81,4 +80,79 @@ body {
   color: var(--ocean-pressed-color);
 }
 
-/* Hero section  */
+/* --- Hero section ---  */
+.hero-caption {
+  font-weight: var(--font-weight-caption);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--main-color);
+  background-color: var(--navyblue-dark-color);
+}
+
+/* --- plus+ Portfolio page> example button --- */
+.hero-btn,
+.example-button {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: var(--font-weight-title);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-color);
+  background-color: var(--iris-brand-color);
+}
+
+.hero-btn:hover,
+.example-button:hover {
+  background-color: var(--ocean-pressed-color);
+}
+
+/* --- Our features section --- */
+/* --- Our Team Section--- */
+/* --- Portfolio page > examples --- */
+
+.features-title,
+.team-title,
+.example-title {
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size-title);
+  line-height: 1.2;
+  color: var(--navyblue-dark-color);
+}
+
+/* --- What are we doing section --- */
+/* --- Our Team Section--- */
+
+.work-caption,
+.team-caption {
+  font-weight: var(--font-weight-caption);
+  font-size: var(--font-size-caption);
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--navyblue-dark-color);
+}
+
+.team-card {
+  background-color: var(--main-color);
+}
+
+.team {
+  background-color: var(--cloud-light-color);
+}
+
+/* --- Footer --- */
+
+.footer-link {
+  font-family: "Raleway" sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud-light-color);
+}
+
+.footer-text {
+  color: var(--cornflower-accent-color);
+}
