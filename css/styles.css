@@ -108,9 +108,9 @@ body {
   color: var(--ocean-pressed-color);
 }
 
-.nav-list .link.active {
+/* .nav-list .link.active {
   color: var(--ocean-pressed-color);
-}
+} */
 
 .adress {
   font-style: normal;
