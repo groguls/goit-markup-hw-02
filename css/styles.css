@@ -143,7 +143,8 @@ body {
 
 /* --- Our Team Section--- */
 
-.team-card {
+.team .section-title,
+.team .section-text {
   background-color: var(--main-color);
   text-align: center;
 }
